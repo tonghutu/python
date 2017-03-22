@@ -3,8 +3,8 @@
 
 import os,urllib,urllib2,re
 
-url = u"http://www.zngirls.com/g/21498/8.html"
-outpath = "/Users/dufei/Code/Python/warm/"
+url = u"http://image.baidu.com/"
+outpath = "/tmp/"
 
 def getHtml(url):
     webfile = urllib.urlopen(url)
